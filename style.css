@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+
+
+/** box2 **/
+.add1{
+color: #cccccc;
+font-size: 0.8rem;
+margin-left: 15px;
+}
+.add2{
+color: #FFFFFF;
+font-size: 1rem;
+margin-left: 3px;
+}
+.add-icons{
+   display: flex;
+   align-items: center;
+  
+}
+
+/** box3 **/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 750px;
+    height: 35px;
+    border-radius: 4px;
+}
+.search-select{
+background-color: #F3F3F3;
+width: 50px;
+align-items: center;
+border-top-left-radius: 4px;
+border-bottom-left-radius: 4px;
+border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icons{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd69;
+    color: #0f1111;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+/** box4**/
+
+.nav-language{
+    display: flex;
+    width: 65px;
+    height: 13px;
+    justify-content: space-evenly;
+    background-color: #0f1111;
+}
+.nav-image{
+    background-image: url(india.png);
+    background-size: cover;
+    display: flex;
+    height:17px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav-english{
+    display: flex;
+    width: 39px;
+    /* height: 18px; */
+    background-color:#0f1111;
+    color: #F3F3F3;
+    border: none;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+/** box5 **/
+
+span{
+    font-size: 12px;
+}
+.nav-secoend{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/** box6 **/
+.nav-card i{
+ font-size: 30px;
+
+}
+.nav-card{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/** panel **/
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 10px;
+    
+}
+.panel-ops{
+    width: 70%;
+    font-size: 13px;
+}
+.panel-deals i{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border-radius:6px;
+    font-size: 30px;
+    height: 34px;
+    width: 36px;
+    background-color: #febd69;
+    color: black;
+}
+.panel-deals{
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    padding: 10px;
+}
+.fa-brands{
+    margin-right: 10px;
+}
+/** hero-section ***/
+.hero-section{
+    background-image: url(hero2.jpg);
+    background-size: cover;
+    height: 270px;
+}
+
+/** shop section **/
+.shop-section{
+    display: flex;
+    justify-content:space-evenly ;
+    background-color: #e2e7e6;
+    flex-wrap: wrap;
+}
+.box{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 1rem;
+    text-align: center;
+}
+.box-image{
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.box-content p{
+    text-align: left;
+    color: #007185
+}
+.box-content p:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+/** toady-deals **/
+.today-deals{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+
+}
+.box1{
+    /* border: 2px solid black; */
+    height: 270px;
+    width: 14%;
+    background-color: white;
+    margin-top: 1rem;
+    padding: 2px 0px 10px;
+}
+.box1-image{
+background-size: contain;
+background-repeat: no-repeat;
+height: 170px;
+background-position: center;
+margin-top: 2rem;
+margin-bottom: 1rem;
+}
+.box1-content p{
+    font-size: 11px;
+    margin-top: 6px;
+    font-weight: 700;
+}
+.deals-off{
+    height: 20px;
+    width: 85px;
+    background-color: red;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+}
+.deal-off-the-day{
+    color: red;
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.deals-footer{
+    display: flex;
+}
+.box2{
+height: 270px;
+width: 13%;
+background-color: white;
+margin-top: 1rem;
+padding: 2px 0px 10px;
+}
+.box2-image{
+background-size: contain;
+background-repeat: no-repeat;
+height: 170px;
+background-position: center;
+margin-top: 4rem;
+margin-bottom: 1rem;
+}
+.box2-content p{
+font-size: 11px;
+margin-top: 6px;
+font-weight: 700;
+}
+.deals-off{
+height: 20px;
+width: 85px;
+background-color: red;
+font-size: 12px;
+display: flex;
+align-items: center;
+border-radius: 2px;
+}
+.deal-off-the-day{
+color: red;
+font-size: 12px;
+font-weight: 700;
+margin-left: 10px;
+display: flex;
+align-items: center;
+}
+.deals-footer{
+display: flex;
+}
